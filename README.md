@@ -14,7 +14,7 @@ This is a c++ implementation of network for supervised classification. The follo
 		* Cross-Entropy classification loss
 
 		* Accuracy layer
-		
+
 	* The network support inference and learning ( forward & backward operations )
 
 # Usage
