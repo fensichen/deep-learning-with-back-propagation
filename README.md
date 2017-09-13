@@ -23,3 +23,5 @@ This is a c++ implementation of network for supervised classification. The follo
 
 # Usage
 	$ make
+
+	$ ./test
