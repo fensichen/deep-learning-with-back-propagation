@@ -1,4 +1,4 @@
-FLAGS=-Iinclude/ -g -std=c++11
+FLAGS=-Iinclude/ -g -std=c++11 `PKG_CONFIG_PATH=/home/fensi/local/opencv3.2/lib/pkgconfig pkg-config --cflags opencv` 
 all:
 	g++ ${FLAGS} -c src/main.cpp
 	g++ ${FLAGS} -c src/data.cpp
